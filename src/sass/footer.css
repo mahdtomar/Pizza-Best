@@ -1,6 +1,20 @@
 footer {
   background-color: black;
   color: white;
+  margin-top: 30px;
+}
+
+footer .container {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+footer .container .location {
+  margin-bottom: 20px;
+  width: 500;
+  height: 350;
+  max-width: 100%;
 }
 
 footer .container * {
@@ -19,6 +33,9 @@ footer .container .phone {
   width: -moz-fit-content;
   width: fit-content;
   height: 30px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 footer .container .phone img {
