@@ -1,0 +1,44 @@
+.best-deals {
+  padding: 0px 10px;
+  gap: 50px 50px;
+}
+
+.best-deals .title {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  text-align: center;
+  background-color: #ffd900;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  font-size: 4em;
+  border: 2px dashed black;
+  padding: 10px;
+}
+
+.best-deals .box {
+  border: 1px solid black;
+}
+
+.best-deals .meal {
+  text-transform: capitalize;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid black;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.best-deals .meal .meal-detailes {
+  font-weight: bold;
+  width: 100%;
+  padding: 10px;
+}
+
+.best-deals .meal img {
+  width: 100%;
+}
+/*# sourceMappingURL=bestdeals.css.map */

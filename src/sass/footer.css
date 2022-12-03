@@ -1,0 +1,28 @@
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer .container * {
+  margin-top: 10px;
+}
+
+footer .container span {
+  display: block;
+  text-align: center;
+  font-size: 4em;
+  padding-top: 30px;
+}
+
+footer .container .phone {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 30px;
+}
+
+footer .container .phone img {
+  width: 20px;
+  margin-right: 5px;
+}
+/*# sourceMappingURL=footer.css.map */
