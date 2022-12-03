@@ -1,8 +1,6 @@
 .best-deals {
   padding: 0px 10px;
   gap: 50px 50px;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
 }
 
 .best-deals .title {

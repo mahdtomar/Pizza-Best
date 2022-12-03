@@ -8,7 +8,7 @@ const nav = () => {
     <nav>
       <div className="container f-2">
       <img src={logo} alt="" className="logo" />
-      <img src={menu} alt="menu-icon" />
+      <img src={menu} alt="menu-icon" className='menu' />
     <ul className='f-2'>
       <Link to="/pizza">pizza</Link>
       <Link to="/pasta">pasta</Link>
