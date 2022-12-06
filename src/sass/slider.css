@@ -1,0 +1,42 @@
+.container.special h2, .container.pasta h2 {
+  font-size: 4em;
+}
+
+.container.special .slider, .container.pasta .slider {
+  overflow-x: scroll;
+  padding: 40px 0px;
+  width: 1440px;
+}
+
+.container.special .slider::-webkit-scrollbar, .container.pasta .slider::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: transparent;
+}
+
+.container.special .slider::-webkit-scrollbar-thumb, .container.pasta .slider::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: #000;
+}
+
+.container.special .slider .meals .meal, .container.pasta .slider .meals .meal {
+  text-transform: capitalize;
+  margin-inline: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid black;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.container.special .slider .meals .meal .meal-detailes, .container.pasta .slider .meals .meal .meal-detailes {
+  font-weight: bold;
+  width: 100%;
+  padding: 10px;
+}
+
+.container.special .slider .meals .meal img, .container.pasta .slider .meals .meal img {
+  width: 100%;
+}
+/*# sourceMappingURL=slider.css.map */

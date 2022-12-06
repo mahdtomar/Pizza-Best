@@ -1,7 +1,7 @@
 header {
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(243, 121, 21, 0.5))), url("../images/header-background.jpeg");
-  background-image: linear-gradient(to bottom, black, rgba(243, 121, 21, 0.5)), url("../images/header-background.jpeg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(243, 121, 21, 0.5))), url("../images/pizza/header-background.jpeg");
+  background-image: linear-gradient(to bottom, black, rgba(243, 121, 21, 0.5)), url("../images/pizza/header-background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }

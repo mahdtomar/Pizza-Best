@@ -1,6 +1,6 @@
 import React from "react";
 import Meal from "./Meal";
-import mealOne from "../images/mealOne.jpeg";
+import mealOne from "../images/pizza/mealOne.jpeg";
 // import mealTwo from "../images/mealTwo.jpeg";
 import mealthree from "../images/mealthree.jpeg";
 // import mealfour from "../images/mealfour.jpeg";
