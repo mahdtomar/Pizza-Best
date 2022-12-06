@@ -6,18 +6,18 @@ import "../sass/slider.css";
 import { useEffect, useState } from "react";
 const Slider = () => {
   // let sliderWidth='1440px'
-  const [sliderWidth,setSliderWidth] = useState('1440px');
-  useEffect(() => {
-    let slider = document.querySelector(".meals");
-     setState(state =>({sliderWidth,}))
-    return sliderWidth
-  });
+  // const [sliderWidth,setSliderWidth] = useState('1440px');
+  // useEffect(() => {
+  //   let slider = document.querySelector(".meals");
+  //    setState(state =>({sliderWidth,}))
+  //   return sliderWidth
+  // });
   return (
     <div className="container special">
       <h2>Pizza</h2>
       <div
         className="slider"
-        style={{ width: sliderWidth}}
+        // style={{ width: sliderWidth}}
       >
         <div className="meals f-2">
           <Meal
