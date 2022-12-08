@@ -32,11 +32,17 @@
   .f-2 {
     flex-direction: column;
   }
+  .meals.f-2 {
+    flex-direction: row;
+  }
   .phone {
     flex-direction: row;
   }
 }
 @media (max-width: 450px) {
+  .meals.f-2 {
+    flex-direction: row;
+  }
   .grid-3 {
     grid-template-columns: 1fr;
   }

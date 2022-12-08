@@ -58,6 +58,12 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .meals.f-2 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
   .phone {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -67,6 +73,12 @@
 }
 
 @media (max-width: 450px) {
+  .meals.f-2 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
   .grid-3 {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;

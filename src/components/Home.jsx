@@ -6,13 +6,15 @@ import Footer from './Footer'
 import Nav from'./Nav'
 import Slider from './Slider'
 import PastaSlider from './PastaSlider'
+import SalesSlider from './SalesSlider'
 const Home = () => {
   return (
     <div>
         <Nav/>
         <Header/>
         <h1>Pizza Best</h1>
-        <BestDeals/>
+        <SalesSlider/>
+        {/* <BestDeals/> */}
         <Slider/>
         <PastaSlider/>
         <Footer/>

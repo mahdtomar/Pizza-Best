@@ -1,5 +1,19 @@
 .container.special,
 .container.pasta {
+  margin-top: 50px;
+  &.sales {
+    h2 {
+      // color: rgb(255, 174, 0);
+      color: black;
+      border: 4px dashed black;
+      // text-decoration: underline;
+      background-color: rgb(255, 174, 0);
+      // text-align: center;
+      margin: 0px auto;
+      padding: 20px;
+      width: fit-content;
+    }
+  }
   h2 {
     font-size: 4em;
   }
@@ -7,7 +21,7 @@
     &::-webkit-scrollbar {
       width: 5px;
       height: 8px;
-      background-color: transparent;
+      background-color: #eee;
     }
     &::-webkit-scrollbar-thumb {
       border-radius: 100px;
@@ -15,13 +29,13 @@
     }
     overflow-x: scroll;
     padding: 40px 0px;
-    width: 1440px;
+    max-width: 1440px;
     .meals {
-      width: 1800px;
+      width: fit-content;
       .meal {
         text-transform: capitalize;
         margin-inline: 20px;
-        width: 400px;
+        width: 270px;
         overflow: hidden;
         border-radius: 10px;
         border: 1px solid black;
